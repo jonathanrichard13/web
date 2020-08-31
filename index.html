@@ -24,14 +24,14 @@
         <header class='main-header'>
             <nav class='nav main-nav'>
                 <ul>
-                    <li><a href="index.html" onClick= "function handleOutboundLinkClicks(event) {
+                    <li><a href="index.html" onclick= "function handleOutboundLinkClicks(event) {
   ga('send', 'event', {
     eventCategory: 'TestTracker',
     eventAction: 'TestClick',
     eventLabel: 'Home',
     transport: 'beacon'
-  })};" >HOME</a></li>
-                    <li><a href="store.html" onclick="ga('send', 'event', 'Store', 'link', 'link');">STORE</a></li>
+  })}" >HOME</a></li>
+                    <li><a href="store.html" onclick="ga('send', 'event', 'Store', 'link', 'link')">STORE</a></li>
                     <li><a href="about.html">ABOUT</a></li>
                 </ul>
             </nav>
